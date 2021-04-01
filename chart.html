@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+<!-- Progress bar --><script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="chart.css">
+
+
+
+    <title>Document</title>
+
+
+    <!-- <figure class="highcharts-figure">
+        <div id="container"></div>
+        <p class="highcharts-description">
+            Chart showing stacked percentage columns, where each column totals 100%,
+            and each element value is visualized by giving it a size relative to the
+            other elements.
+        </p>
+    </figure>
+    <script type="text/javascript" src="scriptt.js"></script> -->
+
+<!-- <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="progress-title">HTML5 - <span>48</span>%</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width:50%; background:#3d99f9;"></div>
+                </div>
+                <h3 class="progress-title">CSS3 - <span>72</span>%</h3>
+                <div class="progress">
+                    <div class="progress-bar" style="width:75%; background:#deeb11;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
+
+
+<script>
+
+ 
+    $(document).ready(function(){
+        $('.progress-title > span').each(function(){
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            },{
+                duration: 1500,
+                easing: 'swing',
+                step: function (now){
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+    });
+<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
+
+</script> -->
+<style>
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50">
+</div>
+
+
+
+</body>
+
+</html>
